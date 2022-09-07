@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Bin Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <nav id="navigation">
+      <div id="logo">
+       JSBinClone
+      </div>
+      <div id="toggle-container">
+        <div class="toggleButton active" id="html">HTML</div>
+        <div class="toggleButton" id="css">CSS</div>
+        <div class="toggleButton" id="javascript">JavaScript</div>
+        <div class="toggleButton active" id="output">Output</div>
+      </div>
+    </nav>
+
+    <main>
+      <textarea id="html-panel" class="panel"></textarea>
+      <textarea id="css-panel" class="panel hidden"></textarea>
+      <textarea id="javascript-panel" class="panel hidden"></textarea>
+      <iframe id="output-panel" class="panel"></iframe>
+    </main>
+
+  </body>
+</html>
